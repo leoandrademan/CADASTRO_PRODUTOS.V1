@@ -1,5 +1,3 @@
-// fase 1: modelagem dos dados
-// A classe funciona como um molde para gerar produtos
 class produto {
     #preco;
     #quantidade;
@@ -21,8 +19,6 @@ class produto {
         this.#preco = parseFloat(preco);
         this.#quantidade = parseInt(quantidade);
     }
-
-    // getters
     get preco() {
         return this.#preco;
     }
@@ -36,12 +32,8 @@ class produto {
     }
 }
 
-
-// fase 2: gerenciamento de estado
 const listadeProdutos = [];
 
-
-// fase 3: escuta de eventos do DOM
 const formProduto = document.getElementById("produto-form");
 
 formProduto.addEventListener("submit", function(event) {
@@ -70,8 +62,6 @@ formProduto.addEventListener("submit", function(event) {
     }
 });
 
-
-// fase 4: Renderização da Interface DOM
 function renderizarTabela() {
     const tabelaBody = document.querySelector("#tabela-produtos tbody");
 
@@ -99,8 +89,6 @@ function renderizarTabela() {
     });
 }
 
-
-// fase 5: indicadores financeiros do estoque
 function atualizarTotalEstoque() {
     const total = listadeProdutos.reduce((acumulador, produto) => {
         return acumulador + produto.calcularSubtotal();
@@ -117,8 +105,6 @@ function atualizarTotalEstoque() {
     )}`;
 }
 
-
-// fase 6: remoção individual
 function removerProduto(index) {
     listadeProdutos.splice(index, 1);
 
@@ -126,8 +112,6 @@ function removerProduto(index) {
     atualizarTotalEstoque();
 }
 
-
-// fase 7: limpeza total
 const botaoLimpar = document.getElementById("limpar-tabela");
 
 botaoLimpar.addEventListener("click", function() {
