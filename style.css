@@ -6,14 +6,16 @@
 
 body{
     font-family: Arial, sans-serif;
-    background-color: #f4f6f9;
-    color: #333;
+    background-color: #444;
+    background-image: url(MATEMATICA2.jpg);
+    background-size: cover;
+    color: #ffffff;
     padding: 20px;
 }
 
 .container{
-    max-width: 650px;
-    background-color: #fff;
+    max-width: 900px;
+    background-color: rgb(41, 39, 61);
     margin: 30px auto;
     padding: 25px;
     border-radius: 8px;
@@ -23,12 +25,12 @@ body{
 h1{
     text-align: center;
     margin-bottom: 20px;
-    color: #1e293b;
+    color: #fff;
 }
 
 form{
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     gap: 15px;
     margin-bottom: 25px;
 }
@@ -42,6 +44,7 @@ form{
 label{
     font-weight: bold;
     font-size: 14px;
+    color: white;
 }
 
 input{
@@ -53,7 +56,7 @@ input{
 
 input:focus{
     outline: none;
-    border-color: #2563eb;
+    border-color: #10224b;
 }
 
 button{
@@ -67,12 +70,12 @@ button{
 }
 
 .btn-primary{
-    background-color: #2563eb;
+    background-color: #10224b;
     color: white;
 }
 
 .btn-primary:hover{
-    background-color: #1d4ed8;
+    background-color: #10224b;
 }
 
 .btn-danger{
@@ -94,7 +97,7 @@ button{
 }
 
 #total-estoque{
-    color: #0f172a;
+    color: #f8f8f8;
 }
 
 table{
@@ -110,7 +113,7 @@ th,td{
 }
 
 th{
-    background-color: #2563eb;
+    background-color: #10224b;
     color: white;
 }
 
