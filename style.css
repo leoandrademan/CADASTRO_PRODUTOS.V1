@@ -15,7 +15,7 @@ body{
 
 .container{
     max-width: 900px;
-    background-color: rgb(41, 39, 61);
+    background-color: rgb(39, 61, 47);
     margin: 30px auto;
     padding: 25px;
     border-radius: 8px;
@@ -56,7 +56,7 @@ input{
 
 input:focus{
     outline: none;
-    border-color: #10224b;
+    border-color: rgb(7, 93, 87);;
 }
 
 button{
@@ -70,12 +70,12 @@ button{
 }
 
 .btn-primary{
-    background-color: #10224b;
+    background-color: rgb(7, 93, 87);;
     color: white;
 }
 
 .btn-primary:hover{
-    background-color: #10224b;
+    background-color: rgb(7, 93, 87);;
 }
 
 .btn-danger{
@@ -107,18 +107,18 @@ table{
 }
 
 th,td{
-    border: px solid #cbd5e1;
+    border: px solid #f8fafc;
     padding: 10px;
     text-align: center;
 }
 
 th{
-    background-color: #10224b;
+    background-color: rgb(7, 93, 87);
     color: white;
 }
 
 tbody tr:nth-child(even){
-    background-color: #f8fafc;
+    background-color: rgba(7, 93, 87, 0.35);;
 }
 
 .btn-remover{
