@@ -124,10 +124,22 @@ tbody tr:nth-child(even){
 .btn-remover{
     background-color: #ef4444;
     color: white;
-    padding: 5px 10px;
-    font-size: 12px;
+    padding: 5px 25px;
+    font-size: 15px;
 }
 
 .btn-remover:hover{
     background-color: #dc2626;
+}
+
+.btn-editar {
+    background-color: #2563eb;
+    color: white;
+    padding: 5px 20px;
+    font-size: 15px;
+    margin-right: 5px;
+}
+
+.btn-editar:hover {
+    background-color: #1d4ed8;
 }
